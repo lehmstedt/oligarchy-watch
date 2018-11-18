@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'oligarchy-watch-front';
+  
+  navLinks = [
+    {path: 'individuals', label: "Individus"},
+    {path: 'organizations', label: "Organisations"},
+    {path: 'links', label: "Liens"}
+  ]
+
+
 }
