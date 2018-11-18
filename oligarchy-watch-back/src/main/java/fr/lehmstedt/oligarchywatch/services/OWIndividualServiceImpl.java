@@ -19,4 +19,8 @@ public class OWIndividualServiceImpl implements OWIndividualService {
 		return individualRepository.findAll();
 	}
 
+	public OWIndividual add(OWIndividual individual) {
+		return individualRepository.save(individual);
+	}
+
 }

@@ -10,5 +10,6 @@ import fr.lehmstedt.oligarchywatch.entities.OWIndividual;
 public interface OWIndividualService {
 	
 	public List<OWIndividual> getAll();
+	public OWIndividual add(OWIndividual individual);
 
 }
